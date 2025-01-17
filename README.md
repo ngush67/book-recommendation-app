@@ -9,6 +9,30 @@ A full-stack web application that allows users to browse, add, and manage book r
 - Connects to a MongoDB cloud database for persistent storage
 - Responsive and clean UI built with Material UI (MUI)
 
+## 🔧 Project Structure
+
+```
+book-recommendation-app/
+├── backend/
+│   ├── models/
+│   │   └── Book.js
+│   ├── routes/
+│   │   └── bookRoutes.js
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── AddBook.js
+│   │   │   └── BookList.js
+│   │   ├── services/
+│   │   │   └── bookService.js
+│   │   ├── App.js
+│   │   └── index.js
+├── package.json
+├── README.md
+└── .gitignore
+```
+
 ## 📊 Tech Stack
 
 - **Frontend:** React, Axios, Material UI
@@ -56,31 +80,6 @@ npm start
 
 - **Frontend:** `http://localhost:3000`
 - **Backend API:** `http://localhost:5000/api/books`
-
-## 🔧 Project Structure
-
-```
-book-recommendation-app/
-├── backend/
-│   ├── models/
-│   │   └── Book.js
-│   ├── routes/
-│   │   └── bookRoutes.js
-│   ├── server.js
-│   └── .env
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── AddBook.js
-│   │   │   └── BookList.js
-│   │   ├── services/
-│   │   │   └── bookService.js
-│   │   ├── App.js
-│   │   └── index.js
-├── package.json
-├── README.md
-└── .gitignore
-```
 
 ## 📊 API Endpoints
 
