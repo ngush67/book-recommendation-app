@@ -1,4 +1,4 @@
-# Book Recommendation App  
+# Book Recommendation App   
 
 A full-stack web application that allows users to browse, add, and manage book recommendations. The app features a React frontend, a Node.js/Express backend, and MongoDB for database management.
 
