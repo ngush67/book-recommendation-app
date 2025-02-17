@@ -2,7 +2,7 @@
 
 A full-stack web application that allows users to browse, add, and manage book recommendations. The app features a React frontend, a Node.js/Express backend, and MongoDB for database management.
 
-## 🌟 Features
+## 🌟 Features 
 
 - View a list of recommended books
 - Add new books with details like title, author, genre, and rating
